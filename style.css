@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
 body {
     /* background-image: url(/color-sharp2.png); */
     background-color: black;
     background-size: cover;
+    font-family: 'Poppins', sans-serif;
 }
 
 .calculadora{
@@ -43,4 +46,10 @@ body {
     background-color: white;
     border-radius: 25px;
     overflow-y: scroll;
+}
+
+.logo {
+    width: 20px;
+    position: relative;
+    top: 4px;
 }
